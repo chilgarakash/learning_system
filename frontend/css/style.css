@@ -1,0 +1,46 @@
+/* Sidebar Styles */
+.sidebar {
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  position: fixed; /* Keep sidebar fixed */
+  height: 100vh;
+  width: 220px;
+  z-index: 999;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  top: 10%;
+}
+
+/* Main Content Adjustment */
+main {
+  margin-left: 240px;
+  padding-top: 20px;
+}
+
+/* Navbar Style */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjustments for links inside the sidebar */
+.sidebar .nav-link {
+  color: #495057;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Highlight active link */
+.sidebar .nav-item.active .nav-link {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Custom styling for main content */
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
